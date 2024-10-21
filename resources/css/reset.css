@@ -210,7 +210,17 @@ h2.cursive {
   height: 4rem;
   border-radius: 0.25rem;
   
-
 }
 
+/* Features section */ 
+
+#features-section {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 5%;
+  height: 47.88rem;
+  background-color: #f3f3f3;
+
+}
 
