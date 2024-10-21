@@ -28,9 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
-body {
-  line-height: 1;
-}
+
 ol, ul {
   list-style: none;
 }
@@ -223,4 +221,42 @@ h2.cursive {
   background-color: #f3f3f3;
 
 }
+
+#features-section .feature {
+  height: 39.68rem; 
+  background-color: white;
+  width: 48%;
+  text-align: center;
+}
+
+.feature .content h2 {
+  color: #4a4a4a;
+  font-size: 2.25rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-top: 1.5rem;
+
+
+}
+
+.feature .content .h3 {
+  color: #4a4a4a;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: light;
+  line-height: 1.2;
+  text-align: justify;
+  
+  
+
+}
+
+.feature img {
+  height: 65%;
+  width: 90%;
+  margin: 2rem;
+}
+
+
 
