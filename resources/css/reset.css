@@ -356,8 +356,6 @@ h2.cursive {
     line-height: 1.4;
   }
 
-
-
 }
 
 
@@ -387,7 +385,7 @@ h2.cursive {
   font-size: 1rem;
   line-height: 1.4;
   text-align: center;
-  padding: 0rem 25rem 5rem; 
+  padding: 0rem 0rem 5rem; 
 
 }
 
@@ -404,6 +402,14 @@ h2.cursive {
 .image-container img {
   width: 100%;
   height: auto;
+}
+
+@media only screen and (max-width: 895px) {
+  #filters-section .content h3 {
+    padding: 0 0 2rem; 
+  
+  }
+
 }
 
 /* quotes section */ 
@@ -429,6 +435,11 @@ h2.cursive {
   vertical-align: bottom;
 }
 
+@media only screen and (max-width: 895px) {
+  #quotes-section .content {
+    padding: 3rem 1.5rem;
+  }
+}
 
 /* footer  */ 
 
