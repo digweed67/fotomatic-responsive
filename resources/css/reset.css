@@ -245,7 +245,31 @@ h2.cursive {
   
 }
 
+@media only screen and (max-width: 895px) {
 
+  #sign-up-section {
+    justify-content: center;
+    align-items: center;
+  }
+  #sign-up-cta {
+    border: none;
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    margin: auto;
+    
+  }
+
+  #sign-up-cta .content {
+    margin-top: 0;
+  }
+
+  #sign-up-cta .email {
+    display: none;
+  }
+
+
+}
 
 
 /* Features section */ 
