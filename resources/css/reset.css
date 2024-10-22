@@ -158,6 +158,24 @@ nav .button {
 }
 
 
+@media only screen and (max-width: 600px) {
+  header .desktop {
+    display: none; 
+  }
+
+  header .mobile {
+    display: block;
+    width: 100%; 
+  }
+
+  header .mobile li {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+}
+
 
 /* Sign Up Section */
 
@@ -358,6 +376,23 @@ h2.cursive {
 
 }
 
+@media only screen and (max-width: 600px) {
+  #features-section {
+    flex-direction: column;
+    padding: 1rem 3%;
+    background-color: white;
+  
+  }
+
+  #features-section .feature {
+    height: 32rem; 
+    width: 100%;
+    text-align: center;
+  
+  }
+
+}
+
 
 /* filters section */ 
 
@@ -440,7 +475,6 @@ h2.cursive {
     padding: 3rem 1.5rem;
   }
 }
-
 /* footer  */ 
 
 footer .content {
