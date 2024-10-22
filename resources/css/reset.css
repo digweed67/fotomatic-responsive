@@ -250,6 +250,7 @@ h2.cursive {
   #sign-up-section {
     justify-content: center;
     align-items: center;
+    height: 31.25rem;
   }
   #sign-up-cta {
     border: none;
