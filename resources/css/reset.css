@@ -261,4 +261,50 @@ h2.cursive {
 }
 
 
+/* filters section */ 
+
+#filters-section {
+  background-color:#4a4a4a;
+  padding: 4rem 0; 
+}
+
+
+#filters-section .content h2 {
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 1);
+  font-size: 2.25rem;
+  font-weight: bold;
+  text-align: center;
+   
+
+
+}
+
+#filters-section .content h3 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.4;
+  text-align: center;
+  padding: 0rem 25rem 5rem; 
+
+}
+
+#filters-section .images-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 1%;
+  
+  
+  
+}
+
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+
 
