@@ -330,4 +330,22 @@ h2.cursive {
 }
 
 
+/* footer  */ 
+
+footer .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.875rem;
+  color: white;
+  background-color: #9b9b9b;
+  font-size: 0.75rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: regular;
+  padding: 0 2rem;
+}
+
+
+
+
 
