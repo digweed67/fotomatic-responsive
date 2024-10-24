@@ -159,6 +159,14 @@ nav .button {
 
 
 @media only screen and (max-width: 600px) {
+  header {
+    height: 3rem;
+    
+  }
+  header .content {
+    padding: 0.5rem;
+  }
+
   header .desktop {
     display: none; 
   }
@@ -173,6 +181,14 @@ nav .button {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+  }
+
+  nav .button {
+    padding: .2rem .3rem;
+    background-color: #9dc20b;
+    line-height: 1.6;
+    color: white;
+    border-radius: 0.25rem;
   }
 }
 
@@ -294,7 +310,18 @@ h2.cursive {
 
 }
 
+@media only screen and (max-width: 600px) {
+  #sign-up-section {
+    padding-top: 3rem;
+  }
 
+  #sign-up-cta .striking {
+    font-family: "Rubik", sans-serif;
+    padding-bottom: 0;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}
 /* Features section */ 
 
 #features-section {
